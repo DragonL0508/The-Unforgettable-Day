@@ -1,0 +1,1 @@
+summon husk ~ ~ ~ {Silent:1b,Invulnerable:0b,NoAI:1b,Health:999f,Tags:["player_entity"],Attributes:[{Name:generic.max_health,Base:999}],teleport_duration:-1}
