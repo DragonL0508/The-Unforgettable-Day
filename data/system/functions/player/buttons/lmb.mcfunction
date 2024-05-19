@@ -1,1 +1,1 @@
-say Pressed LMB
+playsound entity.player.attack.weak master @a ~ ~ ~ 1 1 1

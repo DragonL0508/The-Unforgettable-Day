@@ -7,4 +7,4 @@ clear @s #system:all{offhand:1b}
 item replace entity @s weapon.offhand with carrot_on_a_stick{offhand:1b} 1
 
 #
-say pressed F
+function system:player/buttons/f

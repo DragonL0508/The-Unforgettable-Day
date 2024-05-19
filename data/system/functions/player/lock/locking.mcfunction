@@ -1,0 +1,1 @@
+effect give @e[tag=locked_npc] glowing 1 0 true
