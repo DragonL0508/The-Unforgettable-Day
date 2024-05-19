@@ -1,0 +1,1 @@
+$tellraw @a [{"text": "§e[$(name)] "},{"text": $(string),"color": "gray","italic": false}]

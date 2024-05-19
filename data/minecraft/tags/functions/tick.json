@@ -1,6 +1,6 @@
 {
     "values": [
-        "system:tick",
-        "wasd:main"
+        "wasd:main",
+        "system:tick"
     ]
 }
