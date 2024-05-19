@@ -14,3 +14,4 @@ execute if entity @s[tag=skip] run return run tag @s remove skip
 
 #other stuffs
 execute as @a at @s run playsound entity.villager.yes master @s ~ ~ ~ 1 1.35 1
+execute if score @s dialog matches 2 run function system:npc/mary/do/show_particle
