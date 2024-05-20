@@ -4,8 +4,9 @@ data remove storage system:npc_dialog num
 
 data modify storage system:npc_dialog name set value "瑪莉"
 
-data modify storage system:npc_dialog dialog append value '"你看起來好髒，不要靠近我......"'
-data modify storage system:npc_dialog dialog append value '"你再過來我就要報警了......"'
+data modify storage system:npc_dialog dialog append value '"嗨小明 我的文件放在倉庫裡面"'
+data modify storage system:npc_dialog dialog append value '"裡面有一隻蜘蛛 好可怕啊......"'
+data modify storage system:npc_dialog dialog append value '"可以幫我殺掉牠嗎 不然我今天不用下班了"'
 
 #talk
 execute store result storage system:npc_dialog num int 1 run scoreboard players get @s dialog
