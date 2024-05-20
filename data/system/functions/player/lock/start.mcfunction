@@ -8,3 +8,7 @@ execute if entity @e[tag=locked_npc,tag=hostile] run function system:player/lock
 
 #set dialog
 scoreboard players set @e[tag=locked_npc,tag=npc] dialog 0
+
+#default yaw
+data modify storage system:npc_dialog yaw set from entity @e[tag=locked_npc,limit=1] Rotation[0]
+data modify storage system:npc_dialog pitch set from entity @e[tag=locked_npc,limit=1] Rotation[1]
